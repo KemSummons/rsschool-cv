@@ -32,6 +32,7 @@ function multiply(a, b){
 **Languages:**
 * Russian - native;
 * English - pre-intermediate (A2).
+
 I have a little practice with english language:
 * studying in school;
 * chatting with foreign people;
