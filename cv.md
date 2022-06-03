@@ -7,6 +7,7 @@
 * Discord: Kem#2626.
 
 **Info about me:**
+
 Simple man which wants change his life with help programming. I want to be professional software development, what will help me travel, eat many delicious food, meet much interesting people, absolutly control my life and make my dreams come true.
 
 **My skills:**
@@ -34,6 +35,7 @@ function multiply(a, b){
 * English - pre-intermediate (A2).
 
 I have a little practice with english language:
+
 * studying in school;
 * chatting with foreign people;
 * playing in international team video games;
