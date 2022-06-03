@@ -15,3 +15,16 @@ Simple man which wants change his life with help programming. I want to be profe
 * VS Code;
 * Figma.
 
+**Code example:**
+```
+function multiply(a, b){
+  a * b
+}
+```
+
+* **My experience:**
+* Course Web layout designer: the beginning (https://wayup.in/library/course10) - finished;
+* Course HTML (https://ru.code-basics.com/) - finished;
+* Course CSS (https://ru.code-basics.com/) - finished;
+* Basic layout tutorial book (https://code.mu/ru/markup/book/prime/) - finished.
+* RS School course «JavaScript/Front-end. Stage 0» - in progress.
