@@ -29,3 +29,11 @@ function multiply(a, b){
 * Basic layout tutorial book (https://code.mu/ru/markup/book/prime/) - finished.
 * RS School course «JavaScript/Front-end. Stage 0» - in progress.
 
+**Languages:**
+* Russian - native;
+* English - pre-intermediate (A2).
+I have a little practice with english language:
+* studying in school;
+* chatting with foreign people;
+* playing in international team video games;
+* reading books and watch films with english subtitles.
