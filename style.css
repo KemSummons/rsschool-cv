@@ -1,4 +1,41 @@
-* {
-    margin: 0;
-    padding: 0;
+div.wrapper {
+    width: 900px;
+    margin: 0 auto;
+}
+
+div.nav {
+    height: 50px;
+    padding-top: 20px;
+    padding-right: 20px;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+div.nav li {
+    list-style-type: none;
+}
+
+div.nav a {
+    display: block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.photo {
+    width: 300px;
+    height: 400px;
+    border: 1px solid blue;
+}
+
+div.content {
+    width: 600px;
+    height: 400px;
+    border: 1px solid green;
 }
