@@ -1,41 +1,37 @@
-div.wrapper {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
     width: 900px;
+    height: 1000px;
+    border: 1px solid blue;
     margin: 0 auto;
 }
 
-div.nav {
-    height: 50px;
-    padding-top: 20px;
-    padding-right: 20px;
+#header {
     background-color: black;
-    display: flex;
-    justify-content: flex-end;
+    padding-bottom: 15px;
 }
 
-div.nav li {
+.list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.list li {
     list-style-type: none;
+    margin-top: 10px;
 }
 
-div.nav a {
-    display: block;
-    margin-right: 10px;
+#header a {
     text-decoration: none;
-    color: white;
+    color: gold;
+    padding: 15px;
 }
 
-main {
-    display: flex;
-    justify-content: space-between;
-}
-
-div.photo {
-    width: 300px;
-    height: 400px;
-    border: 1px solid blue;
-}
-
-div.content {
-    width: 600px;
-    height: 400px;
-    border: 1px solid green;
+#header a:hover {
+    background-color: gold;
+    color: black;
 }
