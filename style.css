@@ -5,13 +5,12 @@
 
 #wrapper {
     width: 900px;
-    height: 1000px;
-    border: 1px solid blue;
-    margin: 0 auto;
+    margin: 50px auto;
+    background-color: aqua;
 }
 
 #header {
-    background-color: black;
+    background-color: rgb(105, 201, 234);
     padding-bottom: 15px;
 }
 
@@ -27,51 +26,22 @@
 
 #header a {
     text-decoration: none;
-    color: gold;
-    padding: 15px;
+    color: #003147;
+    padding: 10px 10px 16px;
 }
 
 #header a:hover {
-    background-color: gold;
-    color: black;
+    background-color: #003147;
+    color: rgb(105, 201, 234);
 }
 
-div.photo {
+#menu {
     display: flex;
-    justify-content: space-evenly;
-    background-color: rgb(40, 38, 38);
+    justify-content: center;
 }
 
-div.photo img {
-    padding: 15px 0 15px;
-    border-radius: 50%;
-}
-
-.name-info {
-    padding: 90px 10px;
-    text-align: center;
-    color: gold;
-    background-color: black;
-    font-weight: bold;
-}
-
-#contacts {
-    background-color: black;
-    color: gold;
-}
-
-.contacts-list {
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
-    padding: 15px 0 15px;
-}
-
-#contacts a {
-    text-decoration: none;
-    color: gold;
-}
-#contacts a:hover {
-    background-color: gold;
-    color: black;
+#leftside {
+    width: 330px;
+    height: 1000px;
+    background-color: #003147;
 }
