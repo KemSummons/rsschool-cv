@@ -6,7 +6,7 @@
 #wrapper {
     width: 900px;
     margin: 50px auto;
-    background-color: aqua;
+    background-color: rgba(0, 255, 255, 0.267);
 }
 
 #header {
@@ -35,9 +35,8 @@
     color: rgb(105, 201, 234);
 }
 
-#menu {
+#main {
     display: flex;
-    justify-content: center;
 }
 
 #leftside {
@@ -46,10 +45,21 @@
     background-color: #003147;
 }
 
+#leftside .icon {
+    padding: 10px 30px 0 30px;
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+#leftside .text {
+    font-size: 18px;
+}
+
 .photo {
-    padding-top: 15px;
+    padding: 15px 0 10px 0;
     text-align: center;
     color: white;
+    border-bottom: 5px solid aqua;
 }
 
 .photo img {
@@ -58,15 +68,38 @@
 
 #contacts {
     color: white;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #contacts h2 {
-    padding-top: 20px;
+    padding-top: 10px;
     text-align: center;
 }
 
-#contacts li {
+li {
     list-style-type: none;
-    padding: 10px 0 0 20px;
 }
+
+#summary h2 {
+    padding: 20px 0 10px 0;
+    text-align: center;
+    color: #003147;
+}
+
+#summary p {
+    padding: 0 30px;
+    text-indent: 20px;
+    text-align: justify;
+}
+
+#skills {
+    padding-top: 20px;
+    color: black;
+    color: white;
+}
+
+#skills h2 {
+    text-align: center;
+}
+
+
