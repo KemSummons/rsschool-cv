@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/57bc8a72a1.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -20,8 +22,8 @@
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#code">Code</a></li>
                     <li><a href="#projects">Projects</a></li>
-                    <li><a href="#">Education</a></li>
-                    <li><a href="#">English</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#languages">Languages</a></li>
                 </ul>
             </nav>
         </header>
@@ -34,46 +36,25 @@
                 <div id="contacts">
                     <h2>Contacts</h2>
                     <ul class="contact-list">
-                        <li>
-                            <span class="icon"><i class="fa-brands fa-github"></i></span>
-                            <span class="text">github.com/KemSummons</span>
-                        </li>
-                        <li>
-                            <span class="icon"><i class="fa-brands fa-discord"></i></span>
-                            <span class="text">Kem#2626</span>
-                        </li>
-                        <li>
-                            <span class="icon"><i class="fa-solid fa-envelope"></i></span>
-                            <span class="text">KemSummons@gmail.com</span>
-                        </li>
+                        <li><i class="fa-brands fa-github"></i> github.com/KemSummons</li>
+                        <li><i class="fa-solid fa-phone"></i> Kem#2626</li>
+                        <li><i class="fa-solid fa-envelope"></i> KemSummons@gmail.com</li>
                     </ul>
                 </div>
                 <div id="skills">
                     <h2>My skills</h2>
                     <ul>
-                        <li>
-                            <span class="icon"><i class="fa-brands fa-html5"></i></span>
-                            <span class="text">HTML5</span>
+                        <li>HTML<p><progress max="100" value="70"></progress></p>
                         </li>
-                        <li>
-                            <span class="icon"><i class="fa-brands fa-css3-alt"></i></span>
-                            <span class="text">CSS</span>
+                        <li>CSS<p><progress max="100" value="60"></progress></p>
                         </li>
-                        <li>
-                            <span class="icon"><i class="fa-brands fa-git-alt"></i></span>
-                            <span class="text">Git</span>
+                        <li>Git<p><progress max="100" value="50"></progress></p>
                         </li>
-                        <li>
-                            <span class="icon"><i class="fa-brands fa-github-alt"></i></span>
-                            <span class="text">GitHub</span>
+                        <li>GitHub<p><progress max="100" value="50"></progress></p>
                         </li>
-                        <li>
-                            <span class="icon"><i class="fa-solid fa-code"></i></span>
-                            <span class="text">VS Code</span>
+                        <li>VS Code<p><progress max="100" value="60"></progress></p>
                         </li>
-                        <li>
-                            <span class="icon"><i class="fa-brands fa-figma"></i></span>
-                            <span class="text">Figma</span>
+                        <li>Figma<p><progress max="100" value="40"></progress></p>
                         </li>
                     </ul>
                 </div>
@@ -87,9 +68,43 @@
                         absolutly control my life and make my dreams come true.
                     </p>
                 </div>
+                <div id="code">
+                    <h2>Code</h2>
+                    <pre>
+                            function multiply (a, b) {
+                            return a * b
+                            }
+                        </pre>
+                </div>
+                <div id="projects">
+                    <h2>Projects</h2>
+                    <p>Creating curriculum vitae <a href="https://kemsummons.github.io/rsschool-cv/cv"
+                            target="_blank">CV</a></p>
+                </div>
+                <div id="education">
+                    <h2>Education</h2>
+                    <ul>
+                        <li>Wayup course 'Web layout designer: the beginning'</li>
+                        <li>Code-Basics course 'HTML'</li>
+                        <li>Code-Basics course 'CSS'</li>
+                        <li>Basic layout tutorial book</li>
+                        <li>RS School course 'JavaScript/Front-end. Stage 0' - in progress</li>
+                    </ul>
+                </div>
+                <div id="languages">
+                    <h2>Languages</h2>
+                    <ul>
+                        <li>Russian - native</li>
+                        <li>English - pre-intermediate (A2) <br><img src="/rsschool-cv/img/result.jpg" alt="english-lvl" width="200"></li>
+                    </ul>
+                </div>
             </div>
         </main>
+        <footer id="footer">
+                <li><a href="https://github.com/KemSummons" target="_blank"><i class="fa-brands fa-github-square fa-2x"></i></a></li>
+                <li>© 2022</li>
+                <li><a href="https://rs.school/js/" target="_blank"><img src="https://rs.school/images/rs_school_js.svg" alt="rs-school" width="90px"></a></li>
+        </footer>
     </div>
 </body>
-
 </html>
