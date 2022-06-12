@@ -2,3 +2,151 @@
     margin: 0;
     padding: 0;
 }
+
+#wrapper {
+    width: 900px;
+    margin: 50px auto;
+    background-color: rgba(0, 255, 255, 0.267);
+}
+
+#header {
+    background-color: rgb(105, 201, 234);
+    padding-bottom: 11px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-list li {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+#header a {
+    text-decoration: none;
+    color: #003147;
+    padding: 10px 10px 12px;
+}
+
+#header a:hover {
+    background-color: #003147;
+    color: rgb(105, 201, 234);
+}
+
+#main {
+    display: flex;
+}
+
+#leftside {
+    width: 330px;
+    height: 800px;
+    background-color: #003147;
+}
+
+#leftside .icon {
+    padding: 10px 30px 0 30px;
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+.photo {
+    padding: 0 0 10px 0;
+    text-align: center;
+    color: white;
+    border-bottom: 5px solid aqua;
+    object-fit: cover;
+}
+
+#contacts {
+    color: white;
+    font-size: 18px;
+}
+
+#contacts h2 {
+    padding-top: 10px;
+    text-align: center;
+}
+
+#contacts li {
+    padding: 5px 0 0 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+#summary h2 {
+    padding: 20px 0 10px 0;
+    text-align: center;
+    color: #003147;
+}
+
+#summary p {
+    padding: 0 30px;
+    text-indent: 20px;
+    text-align: justify;
+}
+
+#skills {
+    color: white;
+}
+
+#skills h2 {
+    padding-top: 10px;
+    text-align: center;
+}
+
+#skills li {
+    padding: 5px 0 0 20px;
+}
+
+#code h2 {
+    text-align: center;
+    padding: 20px;
+    color: #003147;
+}
+
+#projects {
+    text-align: center;
+    display: inline;
+    color: #003147;
+}
+
+#education h2 {
+    text-align: center;
+    padding: 20px 0;
+    color: #003147;
+}
+
+#education li {
+    margin-left: 120px;
+    list-style-type: disc;
+}
+
+#languages h2 {
+    text-align: center;
+    padding: 20px 0;
+    color: #003147;
+}
+
+#languages li {
+    margin-left: 120px;
+    list-style-type: disc;
+}
+#languages img {
+    margin-left: 80px;
+}
+
+#footer {
+    width: 900px;
+    height: 50px;
+    background-color: rgb(105, 201, 234);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    color: #003147;
+}

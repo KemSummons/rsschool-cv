@@ -1,12 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Alexandr Regel</h1>
+    <div id="wrapper">
+        <header id="header">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="#summary">Summary</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#code">Code</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#languages">Languages</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="main">
+            <div id="leftside">
+                <div class="photo">
+                    <img src="../rsschool-cv/img/photo.jpg" alt="photo" width="300px">
+                    <h1>Alexander Regel<br>Software Front-end Developer</h1>
+                </div>
+                <div id="contacts">
+                    <h2>Contacts</h2>
+                    <ul class="contact-list">
+                        <li><i class="fa-brands fa-github"></i> github.com/KemSummons</li>
+                        <li><i class="fa-solid fa-phone"></i> Kem#2626</li>
+                        <li><i class="fa-solid fa-envelope"></i> KemSummons@gmail.com</li>
+                    </ul>
+                </div>
+                <div id="skills">
+                    <h2>My skills</h2>
+                    <ul>
+                        <li>HTML<p><progress max="100" value="70"></progress></p>
+                        </li>
+                        <li>CSS<p><progress max="100" value="60"></progress></p>
+                        </li>
+                        <li>Git<p><progress max="100" value="50"></progress></p>
+                        </li>
+                        <li>GitHub<p><progress max="100" value="50"></progress></p>
+                        </li>
+                        <li>VS Code<p><progress max="100" value="60"></progress></p>
+                        </li>
+                        <li>Figma<p><progress max="100" value="40"></progress></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="rightside">
+                <div id="summary">
+                    <h2>Info about me</h2>
+                    <p>
+                        Simple man which wants change his life with help programming. I want to be professional software
+                        development, what will help me travel, eat many delicious food, meet much interesting people,
+                        absolutly control my life and make my dreams come true.
+                    </p>
+                </div>
+                <div id="code">
+                    <h2>Code</h2>
+                    <pre>
+                            function multiply (a, b) {
+                            return a * b
+                            }
+                        </pre>
+                </div>
+                <div id="projects">
+                    <h2>Projects</h2>
+                    <p>Creating curriculum vitae <a href="https://kemsummons.github.io/rsschool-cv/cv"
+                            target="_blank">CV</a></p>
+                </div>
+                <div id="education">
+                    <h2>Education</h2>
+                    <ul>
+                        <li>Wayup course 'Web layout designer: the beginning'</li>
+                        <li>Code-Basics course 'HTML'</li>
+                        <li>Code-Basics course 'CSS'</li>
+                        <li>Basic layout tutorial book</li>
+                        <li>RS School course 'JavaScript/Front-end. Stage 0' - in progress</li>
+                    </ul>
+                </div>
+                <div id="languages">
+                    <h2>Languages</h2>
+                    <ul>
+                        <li>Russian - native</li>
+                        <li>English - pre-intermediate (A2) <br><img src="/rsschool-cv/img/result.jpg" alt="english-lvl" width="200"></li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <footer id="footer">
+                <li><a href="https://github.com/KemSummons" target="_blank"><i class="fa-brands fa-github-square fa-2x"></i></a></li>
+                <li>© 2022</li>
+                <li><a href="https://rs.school/js/" target="_blank"><img src="https://rs.school/images/rs_school_js.svg" alt="rs-school" width="90px"></a></li>
+        </footer>
+    </div>
 </body>
 </html>
